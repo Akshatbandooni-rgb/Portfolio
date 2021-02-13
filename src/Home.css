@@ -1,0 +1,91 @@
+.home {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-image: linear-gradient(to right, #cc2b5e, #753a88);
+}
+
+.home__avatar {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 25%;
+  object-fit: contain;
+  transition: transform 450ms ease-out;
+}
+.home__avatar:hover {
+  transform: scale(1.08);
+}
+.home__intro {
+  color: white;
+  font-size: 50px;
+  font-weight: 1000;
+  letter-spacing: 3px;
+  margin-left: auto;
+  line-height: 1;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.home__info {
+  margin: auto;
+  text-align: center;
+}
+.home__info > p {
+  font-size: 40px;
+  letter-spacing: 3px;
+  line-height: 1;
+  font-weight: 700;
+  opacity: 0.9;
+  color: white;
+  margin-top: 10px;
+  transition: transform 450ms ease-out;
+}
+.home__info > p:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.home__info__primary {
+  display: flex;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  opacity: 0.7;
+  font-size: 25px;
+  letter-spacing: 3px;
+  line-height: 1;
+  color: white;
+  transition: transform 450ms ease-out;
+}
+.home__info__primary:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.home__socials {
+  display: flex;
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+  color: white;
+}
+.home__social {
+  margin: 20px;
+  margin-top: 30px;
+  transition: transform 450ms ease-out;
+}
+.home__social:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+}
+.home__social__icon {
+  font-size: 35px !important;
+  color: white;
+}
+.home--fadebottom {
+  margin-top: 10px;
+  height: 1rem;
+  background-image: linear-gradient(180deg, transparent, white, aliceblue);
+}

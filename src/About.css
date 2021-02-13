@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+.aboutme {
+  display: flex;
+  margin-top: 100px;
+}
+.avatar {
+  flex: 0.3;
+}
+.avatar > * {
+  margin: auto;
+}
+.aboutme__content {
+  flex: 0.7;
+}
+.aboutme__description {
+  width: 80%;
+}
+.contact {
+  margin-top: 30px;
+  width: 50%;
+}
+.contact > p {
+  margin-top: 10px;
+}
+
+.aboutme__content > p {
+  font-size: 50px;
+  letter-spacing: 1px;
+  line-height: 1;
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+.aboutme__description {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 500 !important;
+  color: #95a3a3;
+  /* letter-spacing: 3px; */
+  line-height: 1.5;
+  font-family: "Nunito", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+.contact__heading {
+  font-size: 50px;
+  letter-spacing: 1px;
+  line-height: 1;
+  font-weight: 700;
+  opacity: 0.9;
+  margin-top: 20px;
+}
+.contact__details {
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  color: #95a3a3;
+  font-family: "Ubuntu", sans-serif;
+}

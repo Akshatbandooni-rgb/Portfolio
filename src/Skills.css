@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+.skills {
+  margin-top: 100px !important;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills > * {
+  padding-left: 100px;
+  padding-right: 40px;
+}
+.skills__heading {
+  width: fit-content;
+  margin-left: 10px;
+}
+.skills__heading > p {
+  font-size: 50px;
+  border-bottom: solid 5px #e74075;
+  letter-spacing: 1px;
+  line-height: 1;
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 20px;
+}
+.skills__container {
+  width: 100%;
+}
+.skills__container > li {
+  width: 100%;
+  height: 45px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+li > span {
+  display: block;
+  width: 10%;
+  height: 100%;
+  background-color: #8e4ea3;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 1;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.javascript {
+  display: block;
+  width: 60%;
+}
+.react {
+  display: block;
+  width: 60%;
+}
+.python {
+  display: block;
+  width: 70%;
+}
+.django {
+  display: block;
+  width: 60%;
+}
+.csharp {
+  display: block;
+  width: 55%;
+}
